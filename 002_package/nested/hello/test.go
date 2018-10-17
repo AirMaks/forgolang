@@ -1,5 +1,3 @@
 package hello
 
-func CallFromTest() string {
-
-}
+var NotVisible = "Not visible"

@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/forgolang/002_package/nested/hello"
-	"github.com/forgolang/002_package/nested/say"
+	"github.com/AirMaks/forgolang/002_package/nested/hello"
+	"github.com/AirMaks/forgolang/002_package/nested/say"
 )
 
 func main() {
 
 	fmt.Println("Start program...")
-	fmt.Println(say.CallFromSay() + hello.CallFromHello())
+	fmt.Println(say.CallFromSay() + hello.CallFromHello() + hello.NotVisible)
 
 }
